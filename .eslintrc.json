@@ -1,3 +1,14 @@
 {
-	"extends": "mrmlnc"
+	"extends": "mrmlnc",
+	"overrides": [
+		{
+			"files": ["*.e2e.ts"],
+			"rules": {
+				"unicorn/prevent-abbreviations": [
+					"error",
+					{ "checkFilenames": false }
+				]
+			}
+		}
+	]
 }

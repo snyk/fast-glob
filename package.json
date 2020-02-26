@@ -59,6 +59,7 @@
     "lint": "eslint \"src/**/*.ts\" --cache",
     "compile": "tsc",
     "test": "mocha \"out/**/*.spec.js\" -s 0",
+    "test-e2e": "mocha \"out/**/*.spec.e2e.js\" -s 0",
     "smoke": "mocha \"out/**/*.smoke.js\" -s 0",
     "smoke:sync": "mocha \"out/**/*.smoke.js\" -s 0 --grep \"\\(sync\\)\"",
     "smoke:async": "mocha \"out/**/*.smoke.js\" -s 0 --grep \"\\(async\\)\"",
