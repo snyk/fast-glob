@@ -24,7 +24,6 @@
     "@types/compute-stdev": "^1.0.0",
     "@types/easy-table": "^0.0.32",
     "@types/glob": "^7.1.1",
-    "@types/glob-parent": "^5.1.0",
     "@types/is-ci": "^2.0.0",
     "@types/merge2": "^1.1.4",
     "@types/micromatch": "^4.0.0",
